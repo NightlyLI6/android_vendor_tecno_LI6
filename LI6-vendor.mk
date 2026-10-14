@@ -260,6 +260,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LI6/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/tecno/LI6/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
     vendor/tecno/LI6/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
+    vendor/tecno/LI6/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
     vendor/tecno/LI6/proprietary/vendor/firmware/aw8624_rtp_silk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_rtp_silk.bin \
     vendor/tecno/LI6/proprietary/vendor/firmware/chipone_ts_fw_00.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/chipone_ts_fw_00.bin \
     vendor/tecno/LI6/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
