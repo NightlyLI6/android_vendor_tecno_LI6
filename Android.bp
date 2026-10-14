@@ -8,7 +8,7 @@ soong_namespace {
         "hardware/mediatek",
         "hardware/mediatek/libaedv",
         "hardware/mediatek/libmtkperf_client",
-        "hardware/shadowbyte",
+        "hardware/millennium",
         "vendor/mediatek/ims",
     ],
 }
@@ -28861,4 +28861,20 @@ install_symlink {
     soc_specific: true,
     installed_location: "lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so",
     symlink_target: "/vendor/lib64/mtkcam/mt6789/libmtkcam_streaminfo_plugin-p1stt.so",
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.videotelephony@1.0",
+    owner: "tecno",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+    check_elf_files: false,
 }
